@@ -1,0 +1,200 @@
+nav {
+  position: relative;
+  margin: 25px 0 0 0;
+}
+.sf-menu ul {
+  position: absolute;
+  top: -999px;
+  display: none; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+  width: 100%;
+}
+.sf-menu li {
+  float: left;
+  position: relative;
+}
+.sf-menu > li > a {
+  display: block;
+  position: relative;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 12px 0px 15px;
+}
+.sf-menu > li > a:hover,
+.sf-menu > li.current > a,
+.sf-menu > li.sfHover > a {
+  padding-top: 18px;
+  margin-top: -6px;
+}
+.sf-menu > li:hover,
+.sf-menu > li.current,
+.sf-menu > li.sfHover {
+}
+.sf-menu > li.first_item a {
+  border-radius: 5px 0 0 0;
+}
+.sf-menu > li.last_item a {
+  border-radius: 0 5px 0 0;
+}
+.sf-menu > li.last_item > a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.p_left {
+  padding-left: 1px !important;
+}
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,
+.sf-menu li.sfHover ul {
+  left: 0;
+  top: 46px;
+  width: 141px;
+  padding: 7px 0 5px 0; /* match top ul list item height */
+  z-index: 1000;
+  border-radius: 0 0 5px 5px;
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/sub_ul.png) repeat-x #101010;
+}
+.sf-menu li ul li {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/sub_li.png) 0 bottom repeat-x;
+  padding: 0 0 2px 10px;
+  margin-bottom: 8px;
+  width: 131px;
+}
+.sf-menu li ul li a {
+  font-size: 11px;
+  line-height: 14px;
+  color: #908f8f;
+  text-transform: uppercase;
+}
+.sf-menu li li a:hover,
+.sf-menu li.sfHover li.sfHover > a {
+  color: #b7d61c;
+}
+.bg_none {
+  background: none !important;
+}
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul {
+  left: 142px !important;
+  top: -7px !important;
+}
+
+.bg_color1 > a {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/bg_color1.png) repeat-x #dc8001;
+}
+.bg_color2 > a {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/bg_color2.png) repeat-x #85aa13;
+}
+.bg_color3 > a {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/bg_color3.png) repeat-x #13a76f;
+}
+.bg_color4 > a {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/bg_color4.png) repeat-x #137da6;
+}
+.bg_color5 > a {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/bg_color5.png) repeat-x #164ab4;
+}
+.bg_color6 > a {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/bg_color6.png) repeat-x #2c2c92;
+}
+.bg_color7 > a {
+  background: url(/web/20230125200816im_/https://www.oropipools.co.nz/images/bg_color7.png) repeat-x #ff00cc;
+}
+
+.item1 {
+  width: 91px;
+}
+.item2 {
+  width: 91px;
+}
+.item3 {
+  width: 101px;
+}
+.item4 {
+  width: 91px;
+}
+.item5 {
+  width: 172px;
+}
+.item6 {
+  width: 182px;
+}
+.item7 {
+  width: 130px;
+}
+.item8 {
+  width: 132px;
+}
+.item9 {
+  width: 130px;
+}
+
+.sf-menu li.sub-menu:after {
+  background: url('/web/20230125200816im_/https://www.oropipools.co.nz/images/indicator.png') no-repeat scroll 0 0 transparent;
+  content: '';
+  display: block;
+  height: 4px;
+  margin-top: -1px;
+  position: absolute;
+  right: 47%;
+  top: 74%;
+  width: 5px;
+}
+
+/* Design for a width of 768px */
+@media only screen and (max-width: 995px) {
+}
+
+@media only screen and (max-width: 767px) {
+  nav select {
+    display: block !important;
+    height: 23px;
+    line-height: 23px;
+    outline: medium none;
+    padding: 0;
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav span,
+  .sf-menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  nav span,
+  .sf-menu {
+    display: none;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 20:08:16 Jan 25, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:21:02 Jul 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.677
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.02
+  esindex: 0.015
+  cdx.remote: 23.468
+  LoadShardBlock: 170.732 (3)
+  PetaboxLoader3.datanode: 68.928 (4)
+  PetaboxLoader3.resolve: 144.32 (2)
+  load_resource: 45.357
+*/
