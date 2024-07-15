@@ -1,0 +1,140 @@
+/*********************************page_7*************************************/
+/* Contact form */
+#contact-form {padding:6px 0 0 0; position: relative;}
+#contact-form textarea, #contact-form input {
+	margin:0;
+	font-size:12px;
+	 border:1px solid #b1b1b1;
+	 color:#6a6a6a; 
+	 padding:16px 15px 17px;
+	 outline:none;
+	  position:relative;
+	   font-family:Arial, Helvetica, sans-serif;
+	   background:#fff;
+	    -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;}
+#contact-form input {width:296px; float:left;}
+#contact-form textarea {overflow:auto; width:100%; height:207px;resize:vertical; float:left; margin: 0 0 0 0; -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; resize: none;}	
+
+#contact-form label {
+    display: block;
+    min-height: 60px;
+    overflow: hidden;
+    position: relative;
+    width: 296px;
+}	
+
+#contact-form label.message {
+    width: 100%;
+}
+#contact-form label.message { display:block; padding-bottom:0; }
+#contact-form .button1 {margin-left:17px;}	
+#contact-form .error,
+#contact-form .empty {
+	color:#f00;
+	font-size:10px;
+	line-height:1.25em;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	position:absolute;
+	right:3px;
+	top:2px;
+}
+#contact-form .message .error, 
+#contact-form .message .empty {
+    left: 0;
+    right: auto;
+    top: 191px;
+}
+#contact-form .buttons2 {overflow:hidden;text-align:right; position:relative; clear:both; padding-top:20px;}
+#contact-form .buttons2 a {
+	cursor:pointer;
+	margin-top:0;
+	text-align:center;
+}
+#contact-form .success {
+    background: none repeat scroll 0 0 #f6f6f5;
+    border: 1px solid #333333;
+    display: none;
+    height: 170px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    position: absolute;
+    width: 296px;
+    z-index: 1;
+}
+
+#contact-form .success .success_txt {
+    color: #000;
+    position: relative;
+    text-align: center;
+    top: 34%;
+}
+#contact-form span{ display:block; margin: 0px 0 0 5px;}
+
+@media only screen and (max-width: 995px) {
+	#contact-form input, #contact-form textarea{width:100%;}
+	#contact-form label.message {
+    width: 100%;
+}
+#contact-form label {
+    width: 100%;
+}
+
+#contact-form .success {
+	width: 100%;
+}
+
+#contact-form .success {
+    width: 100%;	
+}
+}
+
+ @media only screen and (max-width: 767px) {
+	 #contact-form input, #contact-form textarea{width:100%;}
+	
+#contact-form label {
+    width: 100%;
+}
+
+#contact-form .success {
+    width: 100%;	
+}
+
+	 }
+ 
+
+
+
+@media only screen and (max-width: 479px){
+
+	
+
+}
+/*
+     FILE ARCHIVED ON 20:08:13 Jan 25, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:19:36 Jul 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.651
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.018
+  esindex: 0.011
+  cdx.remote: 31.494
+  LoadShardBlock: 309.136 (3)
+  PetaboxLoader3.datanode: 298.58 (4)
+  PetaboxLoader3.resolve: 185.47 (3)
+  load_resource: 178.641
+*/
